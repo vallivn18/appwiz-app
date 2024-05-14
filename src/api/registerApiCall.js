@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const registerApiCall = async (name, email, username, password) => {
-  const BASE_URL = "http://64.227.172.61:3000/users/register";
+  const BASE_URL = "https://blazentv.in/users/register";
 
   let isRegistered = false;
 

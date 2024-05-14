@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const getLoginToken = async (username, password) => {
-  const BASE_URL = "http://64.227.172.61:3000/users/login";
+  const BASE_URL = "https://blazentv.in/users/login";
 
   var login_data = {
     message: null,

@@ -3,7 +3,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import JWT from "expo-jwt";
 
 const getApkData = async () => {
-  const BASE_URL = "http://64.227.172.61:3000/generateApk/fetchApkData";
+  const BASE_URL = "https://blazentv.in/generateApk/fetchApkData";
 
   let userToken = await AsyncStorage.getItem("userToken");
   const decoded = JWT.decode(userToken, "Qwertasd1234$lghsfdjkh");

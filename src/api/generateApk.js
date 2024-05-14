@@ -4,7 +4,7 @@ import JWT from "expo-jwt";
 import { manipulateAsync } from "expo-image-manipulator";
 
 const generateApk = async (template_path, app_name, app_image) => {
-  const BASE_URL = "http://64.227.172.61:3000/generateApk";
+  const BASE_URL = "https://blazentv.in/generateApk";
 
   let userToken = await AsyncStorage.getItem("userToken");
   const decoded = JWT.decode(userToken, "Qwertasd1234$lghsfdjkh");
