@@ -14,7 +14,7 @@ const generateApk = async (template_path, app_name, app_image) => {
 
   const app_data = {
     username: decoded.username,
-    template_path: `/home/valli/testing/Templates${template_path}`,
+    template_path: `${template_path}`,
     app_name: app_name,
     client_email: decoded.email,
     app_image: app_encoded_image,
