@@ -29,8 +29,8 @@ const CustomizeScreen = ({ navigation }) => {
   };
 
   const onColorChange = (color) => {
-    console.log(color);
-    setColor({ color });
+    // console.log(color);
+    setColor(color);
   };
 
   const getUserDetail = async () => {

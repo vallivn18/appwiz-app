@@ -49,7 +49,7 @@ const AppDashboard = ({ navigation }) => {
       >
         <Image
           source={{
-            uri: `data:image/png;base64,${apkData[0].app_image}`,
+            uri: `data:image/png;base64,${item.app_image}`,
           }}
           className="w-[100] h-[100]  rounded-full"
         />

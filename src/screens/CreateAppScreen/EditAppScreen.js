@@ -19,7 +19,10 @@ const EditAppScreen = ({ route, navigation }) => {
       if (result.error) {
         Alert.alert("Fail", result.message);
       } else {
-        Alert.alert("Success", result.message);
+        Alert.alert(
+          "Success",
+          `${result.message} Your APK and AAB will be sent to your E-mail`
+        );
         navigation.navigate("AppDashboard");
       }
     } else {
